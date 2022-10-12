@@ -9,7 +9,7 @@ namespace Eazax.Editor
     /// 时间管理器窗口
     /// </summary>
     /// <author>陈皮皮</author>
-    /// <version>20221009</version>
+    /// <version>20221011</version>
     public class TimeManagerWindow : EditorWindow
     {
 
@@ -47,10 +47,6 @@ namespace Eazax.Editor
         {
             _instance = null;
         }
-
-        #endregion
-
-        #region ButtonCallbacks
 
         #endregion
 

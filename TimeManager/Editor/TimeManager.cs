@@ -7,7 +7,7 @@ namespace Eazax.Editor
     /// 时间管理器
     /// </summary>
     /// <author>陈皮皮</author>
-    /// <version>20221009</version>
+    /// <version>20221010</version>
     public static class TimeManager
     {
 
