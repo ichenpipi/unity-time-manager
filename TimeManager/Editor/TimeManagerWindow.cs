@@ -9,7 +9,7 @@ namespace Eazax.Editor
     /// 时间管理器窗口
     /// </summary>
     /// <author>陈皮皮</author>
-    /// <version>20221011</version>
+    /// <version>20221012</version>
     public class TimeManagerWindow : EditorWindow
     {
 
@@ -32,7 +32,8 @@ namespace Eazax.Editor
                 throw new Exception("Failed to open window!");
             }
             // 设置窗口标题
-            _instance.titleContent = new GUIContent("Time Manager");
+            GUIContent iconContent = EditorGUIUtility.IconContent("UnityEditor.AnimationWindow");
+            _instance.titleContent = iconContent != null ? new GUIContent("Time Manager", iconContent.image) : new GUIContent("Time Manager");
             // 设置窗口尺寸
             _instance.minSize = new Vector2(300, 110);
             SetWindowSize(_instance, 400, 212);
